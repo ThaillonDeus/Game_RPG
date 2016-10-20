@@ -7,6 +7,7 @@ class Personagem(Criatura):
         self.id = ""
         self.name = ""
         self.xp = 0
+        self.xp_prox_level = 50
         #Atributos Basicos
         #int = Inteligencia || str = Força || dex = Agilidade || con = Constituição
         #hp = Pontos de Vida || hp_r = Regeneração de Vida || mana = Energia para Magias || mana_r = Regeneração de mana
@@ -55,4 +56,6 @@ class Personagem(Criatura):
         self.def_sagr = 0
         self.def_trev = 0
         self.def_vene = 0
+
+
 
