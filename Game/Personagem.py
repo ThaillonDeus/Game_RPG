@@ -5,7 +5,7 @@ class Personagem(Criatura):
         #Atribuições genericos
         #id = Numero de identificação || name = Nome do Personagem || xp = Experiencia do Personagem
         self.id = ""
-        self.name = ""
+        self.name = "Thaillon"
         self.xp = 0
         #Atributos Basicos
         #int = Inteligencia || str = Força || dex = Agilidade || con = Constituição
