@@ -7,17 +7,16 @@ class Personagem(Criatura):
         self.id = ""
         self.name = ""
         self.xp = 0
-        self.xp_prox_level = 50
         #Atributos Basicos
         #int = Inteligencia || str = Força || dex = Agilidade || con = Constituição
         #hp = Pontos de Vida || hp_r = Regeneração de Vida || mana = Energia para Magias || mana_r = Regeneração de mana
-        self.int = 10
-        self.str = 10
-        self.dex = 10
-        self.con = 10
-        self.hp = 100
+        self.int = 0
+        self.str = 0
+        self.dex = 0
+        self.con = 0
+        self.hp = 0
         self.hp_r = 0
-        self.mana = 100
+        self.mana = 0
         self.mana_r = 0
         #Atributos Magicos
         #dano_m = Dano Magico || pen_m = Penetração Magica || vamp_m = Roubo de Vida Magico || cast_s = Velocidade de Conjuração
